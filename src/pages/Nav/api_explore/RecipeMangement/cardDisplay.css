@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+   
+    width: 100%;
+   
+  }
+  
+  
+   th {
+    border: 3px solid #618264;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    font-size: 1.25rem;
+    font-family: 'Kanit', sans-serif;
+   
+  }
+  td{
+    border: 0.5px solid #618264;
+    text-align: center; /* Center the text in all cells */
+    vertical-align: middle; /* Center content vertically */
+    font-family: 'Kanit', sans-serif;
+    
+   
+   
+  }
+  
+ 
+
+  .col-id{
+  width: 10%;
+  }
+  .col-image{
+    width: 20%;
+  }
+  .col-name{
+    width: 20%;
+  }
+  .col-des{
+    width: 40%;
+    max-lines: 2;
+  }
+  .col-amount{
+    width: 10%;
+  }
+
+  .col-image .recipeImage{
+    width: 120px;
+    height: 120px;
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 5px;
+    
+  }

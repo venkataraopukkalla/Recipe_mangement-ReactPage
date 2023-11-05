@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    background-color:#EBF3E8;
+    
+}
+.api-container{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    width: max-content;
+    border-radius:2.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    background-color: #D0E7D2;
+}
+.api-item h2{
+    margin: 1rem;
+    border: 1px solid #618264;
+    padding: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+   
+
+}
+.main-container .api-nav{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+}

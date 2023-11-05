@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+   
+}
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #79AC78;
+      
+    
+}
+.container .title{
+    margin-left: 5rem;
+    font-size: 21px;
+    font-family: 'Abril Fatface', serif;
+    color: #618264;
+}
+.container .nav-item ul{
+    display: flex;
+    list-style: none;
+     
+}
+.container .nav-item ul li{
+    margin: 15px;
+   
+}
+ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    
+    
+       
+}
